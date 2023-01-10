@@ -40,3 +40,30 @@ const toy2 = {name: 'Rallo mcKing', price: 29};
 
 const suma = toy1['price'] + toy2['price'];
 console.log(suma);
+
+
+// 1.4
+
+let globalBasePrice = 10000;
+
+// Actualizamos el valor de la variable globalBasePrice
+globalBasePrice = 25000;
+const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: 60000};
+const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
+
+// Calculanos los nuevos precios finales para cada coche: basePrice + globalPrice
+const newFinalPriceCar1 = car1['basePrice'] + globalBasePrice;
+const newFinalPriceCar2 = car2['basePrice'] + globalBasePrice;
+
+// Eliminamos del objeto el finalPrice y añadimos el newFinalPrice
+car1['finalPrice'] = newFinalPriceCar1;
+car2['finalPrice'] = newFinalPriceCar2;
+
+console.log(car1);
+console.log(car2);
+
+
+
+
+
+
