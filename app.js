@@ -172,4 +172,40 @@ if (number2 / 2 == number1 || number1 / 5 == number3) {
   console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 }
 
+// ITERACION 6: Bucles
+
+// 1.1
+
+const contador = 10;
+
+for (let index = 0; index < contador; index++) {
+    console.log(index);
+}
+
+// 1.2
+
+const contador1 = 10;
+
+for (let index1 = 0; index1 < contador1; index1++) {
+    if(index1 % 2 == 0){
+        console.log(index1);
+    }
+    
+}
+
+// 1.3
+
+const contador2 = 10;
+
+for (let index2 = 1; index2 <= contador2; index2++) {
+    if(index2 <= 9){
+        console.log("Intentando dormir 🐑");
+    } else {
+        console.log("Dormido!");
+    }
+    
+}
+
+
+
 
