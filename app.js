@@ -93,6 +93,47 @@ const m = 5;
 const i = c * m;
 console.log(i);
 
+// ITERACION 4: Arrays
+
+// 1.1
+
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+console.log(avengers[0]);
+
+// 1.2
+
+const avengers1 = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+avengers1.splice(0, 1, "IRONMAN");
+
+console.log(avengers1);
+
+// 1.3 
+
+const avengers2 = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+console.log(avengers2.length);
+
+// 1.4
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+rickAndMortyCharacters.push("Morty", "Summer");
+
+console.log(rickAndMortyCharacters);
+
+// 1.5
+
+const rickAndMortyCharacters1 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters1.pop();
+
+console.log(rickAndMortyCharacters1[0] + ", " + rickAndMortyCharacters1[4]);
+
+// 1.6
+
+const rickAndMortyCharacters2 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters2.splice(1, 1);
+
+console.log(rickAndMortyCharacters2);
 
 
 
