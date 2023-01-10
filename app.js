@@ -22,5 +22,13 @@ const z = h + y;
 // 1.1
 
 const character = {name: 'Jack Sparrow', age: 10};
+character['age'] = 25;
 console.log(character);
 
+// 1.2
+
+const firstName = "Jon";
+const lastName = "Snow";
+const age = 24;
+
+console.log("Soy " + firstName + " " + lastName + ", tengo " + age + " años y me gustan los lobos.")
